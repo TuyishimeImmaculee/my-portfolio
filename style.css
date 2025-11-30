@@ -1,0 +1,157 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1224;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #0a0f20;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header a {
+    color: #ccc;
+    margin-left: 20px;
+}
+header a:hover { color: #fdbb15; }
+
+.logo {
+    color: #fdbb15;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text h1 { font-size: 40px; }
+
+.hero-img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fdbb15;
+    color: black;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn:hover { background: #d99d10; }
+
+/* About */
+.about {
+    display: flex;
+    gap: 40px;
+}
+
+.about-img {
+    width: 320px;
+    border-radius: 12px;
+}
+
+/* Experience */
+.experience .exp-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    background: #131b38;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Testimony */
+.testimony {
+    text-align: center;
+}
+
+.testimony-img {
+    margin-top: 20px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* Skills */
+.skills .skill-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.portfolio-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Blog */
+.blog-posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-posts .post {
+    width: 50%;
+}
+
+.post-img img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a0f20;
+}
